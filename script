@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ -s $1 ]
+ then 
+   echo "target file exists!"
+    exit
+ else
+   echo "file does not exist"
+    exit
+fi
