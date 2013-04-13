@@ -1,5 +1,5 @@
 #!/bin/bash
-
+This is my line of code
 if [ -s $1 ]
  then 
    echo "target file exists!"
